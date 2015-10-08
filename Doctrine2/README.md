@@ -5,7 +5,7 @@ Here i'll be puting some tips, tricks and code for Doctrine 2.
 # CAST
 Follow steps bellow to implement support for CAST function on your project:
 
-1 - Download it from the repo;
+1 - Download it's file (Cast.php) from THIS repo;
 
 2 - Setup string_functions directive (usually located at config.yml):
 
