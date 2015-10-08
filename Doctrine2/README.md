@@ -9,14 +9,16 @@ Follow steps bellow to implement support for CAST function on your project:
 
 2 - Setup string_functions directive (usually located at config.yml):
 
+```
 doctrine:
-        orm:
-            entity_managers:
-                default:
-                    dql:
-                        string_functions:
-                            Cast:
-                                Path\Namespace\DQL\Cast
+    orm:
+        entity_managers:
+            default:
+                dql:
+                    string_functions:
+                        Cast:
+                            Path\Namespace\DQL\Cast
+```
 
 
 Clean cache and use it on your DQL queries:
