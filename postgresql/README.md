@@ -1,1 +1,1 @@
-# postgreSQL thougts
+# postgreSQL thoughts
