@@ -91,6 +91,11 @@ catch (Exception $e)
 ?>
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=480" />
+        <meta name="MobileOptimized" content="480" />
+    </head>
     <body>
         <?php echo '<a href="' . htmlspecialchars($loginUrl) . '"><img src="captiveportal-facebook-login.png" /></a>'; ?>
 
